@@ -1,0 +1,184 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content-01 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 0 96px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    padding: 120px 0px;
+    gap: 24px;
+}
+
+.hero-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.content-02 {
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 48px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    gap: 8px;
+}
+
+.some-button {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    flex-grow: 1;
+}
+
+.content-03 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 120px 240px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 16px;
+}
+
+.quote-author {
+    text-align: end;
+    margin: 0;
+    font-weight: bold;
+}
+
+.content-04 {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.box-call-action {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 32px 80px;
+    gap: 120px;
+}
+
+.call-action-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.call-action-text .title {
+    font-weight: bold;
+}
+
+.call-action-text .secondary {
+    font-weight: 200;
+}
+
+.call-action-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 8px 24px;
+    border-radius: 8px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    background-color: gray;
+}
